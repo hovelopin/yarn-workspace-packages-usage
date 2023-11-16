@@ -1,7 +1,11 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
+import styles from "./page.module.css";
+import { isArray } from "@idstrust/utils";
 
 export default function Home() {
+  const arr = [1, 2, 3];
+  isArray(arr);
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
@@ -15,7 +19,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '}
+            By{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -91,5 +95,5 @@ export default function Home() {
         </a>
       </div>
     </main>
-  )
+  );
 }
