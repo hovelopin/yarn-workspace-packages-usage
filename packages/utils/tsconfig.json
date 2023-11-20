@@ -3,7 +3,7 @@
   "compilerOptions": {
     "strict": true,
     "useUnknownInCatchVariables": true,
-    "allowJs": true,
+    // "allowJs": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
