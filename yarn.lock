@@ -2344,6 +2344,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@idstrust/docs@workspace:app/document":
+  version: 0.0.0-use.local
+  resolution: "@idstrust/docs@workspace:app/document"
+  dependencies:
+    "@docusaurus/core": "npm:3.0.0"
+    "@docusaurus/module-type-aliases": "npm:3.0.0"
+    "@docusaurus/preset-classic": "npm:3.0.0"
+    "@docusaurus/tsconfig": "npm:3.0.0"
+    "@docusaurus/types": "npm:3.0.0"
+    "@mdx-js/react": "npm:^3.0.0"
+    clsx: "npm:^1.2.1"
+    prism-react-renderer: "npm:^2.1.0"
+    react: "npm:^18.0.0"
+    react-dom: "npm:^18.0.0"
+    typescript: "npm:~5.2.2"
+  languageName: unknown
+  linkType: soft
+
 "@idstrust/utils@workspace:^, @idstrust/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@idstrust/utils@workspace:packages/utils"
@@ -5987,24 +6005,6 @@ __metadata:
   checksum: 8948d3d03063fb68e04a1e386875f8c3bcc398fc375f535f2b438fad8f41bf1afa6f5e70893ba44f4ae884c089247e0a31045722fa6ff0f01d228da103f1811d
   languageName: node
   linkType: hard
-
-"docs@workspace:app/docs":
-  version: 0.0.0-use.local
-  resolution: "docs@workspace:app/docs"
-  dependencies:
-    "@docusaurus/core": "npm:3.0.0"
-    "@docusaurus/module-type-aliases": "npm:3.0.0"
-    "@docusaurus/preset-classic": "npm:3.0.0"
-    "@docusaurus/tsconfig": "npm:3.0.0"
-    "@docusaurus/types": "npm:3.0.0"
-    "@mdx-js/react": "npm:^3.0.0"
-    clsx: "npm:^1.2.1"
-    prism-react-renderer: "npm:^2.1.0"
-    react: "npm:^18.0.0"
-    react-dom: "npm:^18.0.0"
-    typescript: "npm:~5.2.2"
-  languageName: unknown
-  linkType: soft
 
 "doctrine@npm:^2.1.0":
   version: 2.1.0
