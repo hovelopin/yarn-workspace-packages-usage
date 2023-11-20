@@ -2,6 +2,7 @@
   "name": "@idstrust/utils",
   "packageManager": "yarn@4.0.2",
   "main": "./src/index.ts",
+  "version": "0.0.1",
   "scripts": {
     "test": "jest"
   },

@@ -1,7 +1,7 @@
 import { isArray } from ".";
 
 it("isArray function allows array type", () => {
-  const arr = [1, 2, 3];
+  const arr: number[] = [1, 2, 3];
   expect(isArray(arr)).toBe(true);
 });
 
